@@ -31,3 +31,22 @@ export const Stops = styled.div`
   font-weight: 500;
   color: green;
 `
+
+export const Separator = styled.hr``
+
+export const FieldsWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+`
+
+export const Field = styled.span``
+
+export const SequenceField = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  span {
+    padding-left: 12px;
+  }
+`
